@@ -23,16 +23,16 @@ public class Cable : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            //Reiniciar();
+                Reiniciar();
         }
     }
 
     private void OnMouseDrag()
     {
         ActualizarPosicion();
-        //ComprobarConexion();
-        //ActualizarRotacion();
-        //ActualizarTamaño();
+        ComprobarConexion();
+        ActualizarRotacion();
+        ActualizarTamaño();
     }
 
     private void ActualizarPosicion()
